@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Simple History 2
+tagline:          'A simple, lightweight, extendable logger for WordPress'
+description:      'A simple, lightweight, extendable logger for WordPress.'
+url:              https://wordpress.org/plugins/simple-history/
+
+author:
+  name:           'Pär Thernström'
+  url:            https://twitter.com/eskapism
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/bonny/WordPress-Simple-History

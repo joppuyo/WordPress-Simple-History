@@ -1,0 +1,10 @@
+/*
+Overrides for Simple History
+*/
+
+.sidebar-about h1 {
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	line-height: 1.1;
+	font-size: 1.85rem;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Simple History 2</title>
+ <link href="https://wordpress.org/plugins/simple-history//atom.xml" rel="self"/>
+ <link href="https://wordpress.org/plugins/simple-history//"/>
+ <updated>2014-05-25T17:59:45+02:00</updated>
+ <id>https://wordpress.org/plugins/simple-history/</id>
+ <author>
+   <name>Pär Thernström</name>
+   <email></email>
+ </author>
+
+ 
+
+</feed>
