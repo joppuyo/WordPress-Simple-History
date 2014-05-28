@@ -1,6 +1,6 @@
 ---
 layout: page
-title: For page editors
+title: For administrators
 ---
 
 Simple History is a great tool for website administrators...
