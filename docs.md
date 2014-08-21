@@ -58,7 +58,7 @@ SimpleLogger()->debug("Ok, cron job is running!");
 SimpleLogger()->notice(
 	"User {username} edited page {pagename}",
 	array(
-		"username" => "bonnyerden",
+		"username" => "jessie",
 		"pagename" => "My test page",
 	)
 );
