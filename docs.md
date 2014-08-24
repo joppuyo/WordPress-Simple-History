@@ -17,6 +17,8 @@ see what the users on your website is doing: who is adding new posts, who edited
 
 ## Top features
 
+* GUI flood protection, count all failed logins to unknown users as the same occasions,
+  to prevent log being flooded with login/hack attempts (note: whats the "real" log wordy termy for this?)
 * Made for users
   * With it's good looking GUI this plugin is not only useful for developers or admins.
   * Also, each log entry is tailered to give you the most needed information, no more, no less
