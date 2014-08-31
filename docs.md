@@ -23,6 +23,7 @@ see what the users on your website is doing: who is adding new posts, who edited
   * Also, each log entry is tailered to give you the most needed information, no more, no less
 * Great for debugging and for security audits
 * Logged things have contexts
+  * Things have a meaning, you will not only know that something has happened, you will often know exactly what, i.e. in what context something has happened.
 * A simple [PSR-3 logger interface](http://www.php-fig.org/psr/psr-3/) compatible logger and activity feed for WordPress.
 * Implements [the log levels from The Syslog Protocol](http://tools.ietf.org/html/rfc5424#page-11)
 * Keep track of what's going on inside the admin area of your WordPress installation.
