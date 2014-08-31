@@ -26,3 +26,7 @@ print_r( $_GET );
 
 ?>
 ```
+
+## Embed gist?
+
+{% gist 3e0dffa03482bfb090af %}
