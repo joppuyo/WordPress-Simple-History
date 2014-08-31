@@ -20,5 +20,9 @@ print_r( $_GET );
 ```
 
 ```php
+<?php
+
 print_r( $_GET );
+
+?>
 ```
