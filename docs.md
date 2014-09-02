@@ -121,14 +121,22 @@ Log events was inititated by something other than above
 
 ## Loglevels
 
-* 0 Emergency: system is unusable
-* 1 Alert: action must be taken immediately
-* 2 Critical: critical conditions
-* 3 Error: error conditions
-* 4 Warning: warning conditions
-* 5 Notice: normal but significant condition
-* 6 Informational: informational messages
-* 7 Debug: debug-level messages
+* `0 Emergency`  
+system is unusable
+* `1 Alert`  
+action must be taken immediately
+* `2 Critical`  
+critical conditions
+* `3 Error`  
+error conditions
+* `4 Warning`  
+warning conditions
+* `5 Notice`  
+normal but significant condition
+* `6 Informational`  
+informational messages
+* `7 Debug`  
+debug-level messages
 
 
 ## Creating your own logger
