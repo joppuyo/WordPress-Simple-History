@@ -1,0 +1,18 @@
+status progress
+
+The progress of version 2 is slowly moving forward. This week i started to get widget logging going.
+
+That means I'm up to 11 loggers, logging events for the following things in Wordpress:
+
+* Plugins (installs, updates, activate, deactivate, delete)
+* Themes - install, update, switch, customisation 
+* Wordpress core updates
+* Posts, pages, and custom post types creation, edit, status change, delete
+* attachments, adding including a nice thumbnail, editing, deleting
+* Wordpress settings screens
+* Permalink changes
+* comments 
+* exports 
+* menu changes
+* user changes
+* 
