@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Progress status
+title: Progress status: 11 loggers available
 ---
-
-status progress
 
 The progress of version 2 is slowly moving forward. This week i started to get widget logging going.
 
@@ -20,4 +18,4 @@ That means I'm up to 11 loggers, logging events for the following things in Word
 * exports 
 * menu changes
 * user changes
-* 
+
