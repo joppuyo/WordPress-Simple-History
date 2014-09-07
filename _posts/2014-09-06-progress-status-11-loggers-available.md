@@ -37,3 +37,6 @@ creations, edits, removals
 
 * _Users_  
 creations, edits, removals
+
+* _Widgets_  
+Adding widgets to sidebars, editing them, removing them
