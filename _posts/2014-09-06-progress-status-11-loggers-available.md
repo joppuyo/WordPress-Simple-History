@@ -1,7 +1,7 @@
---
+---
 layout: post
-title: Progress status: 11 loggers available
---
+title: Progress status&#58; 11 loggers available
+---
 
 The progress of version 2 is slowly moving forward. This week i started to get widget logging going.
 
