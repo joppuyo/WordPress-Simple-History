@@ -9,26 +9,31 @@ The development of version2 is moving forward. This week I started to get widget
 installs, updates, activations, deactivations, deletions
 
 * _Themes_  
-installs, updates, switching theme, theme customization (using the WordPress customizer)
+installs, updates, switching themes, customize theme (using the WordPress customizer)
 
 * _WordPress core_  
-updates – manual and background updates
+manual updates and background updates
 
 * _Posts, pages, and custom post types_  
 creation, edits, status changes, deletions
 
-* __Attachments__  
+* _Attachments_  
 adding/uploading (including a nice thumbnail!), editing, deleting
 
-* __WordPress settings screens__  
-changing options in General, Writing, Reading, Discussion
+* _WordPress settings screens_  
+changing options in the General, Writing, Reading and Discussion options pages
 
-* __Permalink changes__
+* _Permalink changes_  
+changes of permalink and category and tag base structure
 
-* __Comments__ 
+* _Comments_ 
+Info about new comments, changing status
 
-* __Exports__ 
+* _Exports_ 
+Info about what was exported
 
-* __Menu changes__
+* _Menus_
+creations, edits, removals
 
-* __Users__
+* _Users_
+creations, edits, removals
