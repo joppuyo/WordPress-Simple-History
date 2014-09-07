@@ -26,14 +26,14 @@ changing options in the General, Writing, Reading and Discussion options pages
 * _Permalink changes_  
 changes of permalink and category and tag base structure
 
-* _Comments_ 
+* _Comments_  
 Info about new comments, changing status
 
-* _Exports_ 
+* _Exports_   
 Info about what was exported
 
-* _Menus_
+* _Menus_  
 creations, edits, removals
 
-* _Users_
+* _Users_  
 creations, edits, removals
