@@ -8,27 +8,27 @@ The development of version2 is moving forward. This week I started to get widget
 * _Plugins_  
 installs, updates, activations, deactivations, deletions
 
-* __Themes__  
+* _Themes_  
 installs, updates, switching theme, theme customization (using the WordPress customizer)
 
-* *WordPress core*  
+* _WordPress core_  
 updates – manual and background updates
 
-* **Posts, pages, and custom post types**  
+* _Posts, pages, and custom post types_  
 creation, edits, status changes, deletions
 
-* Attachments  
+* __Attachments__  
 adding/uploading (including a nice thumbnail!), editing, deleting
 
-* Wordpress settings screens  
+* __WordPress settings screens__  
 changing options in General, Writing, Reading, Discussion
 
-* Permalink changes
+* __Permalink changes__
 
-* Comments 
+* __Comments__ 
 
-* exports 
+* __Exports__ 
 
-* menu changes
+* __Menu changes__
 
-* user changes
+* __Users__
