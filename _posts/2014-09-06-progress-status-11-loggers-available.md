@@ -27,10 +27,10 @@ changing options in the General, Writing, Reading and Discussion options pages
 changes of permalink and category and tag base structure
 
 * _Comments_  
-Info about new comments, changing status
+info about new comments, changing status
 
 * _Exports_   
-Info about what was exported
+info about what was exported
 
 * _Menus_  
 creations, edits, removals
