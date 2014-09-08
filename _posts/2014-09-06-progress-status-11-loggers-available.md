@@ -3,7 +3,7 @@ layout: post
 title: Progress status&#58; 11 loggers available
 ---
 
-The development of version2 is moving forward. This week I started to get widget logging going. That means I'm up to 11 loggers, logging events for the following things in WordPress:
+The development of version 2 is moving forward. This week I started to get widget logging going. That means I'm up to 11 loggers, logging events for the following things in WordPress:
 
 * _Plugins_  
 installs, updates, activations, deactivations, deletions
