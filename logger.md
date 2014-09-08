@@ -7,7 +7,7 @@ Make sure you log your thing and only your thing.
 
 Don't sound like a robot. Humans read the activity feed, so write for them.
 
-Store context.
+Store context. Don't store too much if log entry is common, since it takes up space in the database. Store just enough amount of data to make context useful for debugging purposes.
 Store non-translated strings and data, and translate them when viewing the log.
 Store message with enough info to make it clear what the message is about, but don't.
 
