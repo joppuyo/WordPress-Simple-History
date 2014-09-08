@@ -36,7 +36,7 @@ info about what was exported
 creations, edits, removals
 
 * _Users_  
-creations, edits, removals
+creations, edits, removals, successful logins, failed logins
 
 * _Widgets_  
 Adding widgets to sidebars, editing them, removing them
