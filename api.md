@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs (in progress)
+title: API
 ---
 
 ## JavaScript
