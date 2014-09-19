@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Logger stuff &middot; Simple History
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/bonny.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+  <div class="header">
+	<div class="container">
+		<div class="header-about">
+			<h1><a href="/">Simple History</a></h1>
+			<p class="lead">Site and user activity feed<br>plugin for WordPress</p>
+		</div>
+
+		<ul class="nav-nav">
+
+			<!--<li class="nav-item">
+				<a href="/">Home</a>
+			</li>-->
+
+			
+
+			
+			
+				
+					
+				
+			
+				
+					
+						<li class="nav-item">
+							<a href="/api/">API</a>
+						</li>
+					
+				
+			
+				
+			
+				
+					
+						<li class="nav-item">
+							<a href="/docs/">Docs (in progress)</a>
+						</li>
+					
+				
+			
+				
+					
+				
+			
+				
+					
+						<li class="nav-item active">
+							<a href="/logger/">Logger stuff</a>
+						</li>
+					
+				
+			
+			
+			<!--
+			<li class="sidebar-nav-item"><a href="https://github.com/bonny/WordPress-Simple-History/archive/v2.0.0.zip">Download</a></li>
+			<li class="sidebar-nav-item"><a href="https://github.com/bonny/WordPress-Simple-History">GitHub project</a></li>
+			<li class="sidebar-nav-item">Currently v2.0.0</li>
+			-->
+		</ul>
+	
+	</div>
+</div>
+
+
+    <div class="content container">
+    
+      <div class="page">
+  <h1 class="page-title">Logger stuff</h1>
+  <p>Make sure you log your thing and only your thing.</p>
+
+<p>Don&#39;t sound like a robot. Humans read the activity feed, so write for them.</p>
+
+<p>Store context. Don&#39;t store too much if log entry is common, since it takes up space in the database. Store just enough amount of data to make context useful for debugging purposes.
+Store non-translated strings and data, and translate them when viewing the log.
+Store message with enough info to make it clear what the message is about, but don&#39;t.</p>
+
+<p>Always make sure variables and keys in arrays and objects exists by using<code>isset()</code>. Also make sure to develop with <code>WP_DEBUG</code> set to true. We don&#39;t want any users to get PHP warnings or notices.</p>
+
+<p>Remember that plain text can be used for CSV-export and similar, so text must work without links too. Links are enhancement.</p>
+
+</div>
+
+      
+    </div>
+
+          <h2>News</h2>
+      
+      <ul>
+        
+          <li>
+            <a href="/2014/09/19/log-level-tags/">Colourful Log Level Tags implemented</a>
+          </li>
+        
+          <li>
+            <a href="/2014/09/06/progress-status-11-loggers-available/">Progress status&#58; 11 loggers available</a>
+          </li>
+        
+      </ul>
+
+      <p>Page last updated 2014-09-19.</p>
+
+		  <p class="edit-page"><a href="/edit/gh-pages/logger.md">Edit this page</a></p>
+		  
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-181460-26', 'simple-history.com');
+    ga('send', 'pageview');
+  
+  </script>
+  
+  </body>
+</html>
