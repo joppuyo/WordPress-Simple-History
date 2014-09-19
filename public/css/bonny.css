@@ -30,7 +30,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 16px;
   line-height: 1.5;
 }
@@ -214,8 +214,10 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 0.8rem;
   font-weight: 300;
+  margin: 0;
+  line-height: 1.2;
 }
 
 
@@ -241,11 +243,13 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 38rem;
+  /*max-width: 38rem;*/
+  max-width: 90%;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
   margin-right: auto;
+  position: relative;
 }
 
 
@@ -273,6 +277,90 @@ tbody tr:nth-child(odd) th {
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
+}
+
+
+/** 
+ * Header navigation
+ */
+.header {
+  text-align: center;
+  background-color: #eee;
+  font-size: 1.1rem;
+  padding: 20px 0 20px 0;
+  position: relative;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: -webkit-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F09819 10%, #EDDE5D 90%); /* W3C */
+
+
+  background: -webkit-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* W3C */
+
+
+
+  background: -webkit-linear-gradient(90deg, #ED4264 10%, #FFEDBC 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #ED4264 10%, #FFEDBC 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #ED4264 10%, #FFEDBC 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #ED4264 10%, #FFEDBC 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #ED4264 10%, #FFEDBC 90%); /* W3C */
+
+}
+
+.header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.header a {
+  color: #333;
+}
+
+.nav-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header-about {
+  text-align: left;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item a {
+  padding: .5em;
+}
+
+.nav-item.active {
+  font-weight: bold;
+}
+
+/**
+ * Screenshots of start
+ */
+.screenshots {
+  list-style-type: none;
+  padding: 0;
 }
 
 

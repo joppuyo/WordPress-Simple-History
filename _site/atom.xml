@@ -1,16 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Simple History 2</title>
+ <title>Simple History</title>
  <link href="https://wordpress.org/plugins/simple-history//atom.xml" rel="self"/>
  <link href="https://wordpress.org/plugins/simple-history//"/>
- <updated>2014-05-25T17:59:45+02:00</updated>
+ <updated>2014-09-19T09:14:59+02:00</updated>
  <id>https://wordpress.org/plugins/simple-history/</id>
  <author>
    <name>Pär Thernström</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Colourful Log Level Tags implemented</title>
+   <link href="https://wordpress.org/plugins/simple-history//2014/09/19/log-level-tags/"/>
+   <updated>2014-09-19T00:00:00+02:00</updated>
+   <id>https://wordpress.org/plugins/simple-history//2014/09/19/log-level-tags</id>
+   <content type="html">&lt;p&gt;Since Simple History uses the log levels from &lt;a href=&quot;http://tools.ietf.org/html/rfc5424#page-11&quot;&gt;The Syslog Protocol&lt;/a&gt;, each log entry can be one of 8 severitys. &lt;/p&gt;
+
+&lt;p&gt;For example a failed login attempt may be of severity &lt;code&gt;warning&lt;/code&gt;, but a successful login may only be of severity &lt;code&gt;notice&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the output we need a way to show the log level of each entry. In Simple History I&amp;#39;ve decided to show the log levels as an inline &amp;quot;tag&amp;quot;, the same way as GitHub does it. I played around for a long time, trying out some other ways of displaying it, but I finally settled with this. &lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s simple, it&amp;#39;s easy, it&amp;#39;s colorful. And it&amp;#39;s useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/29-sep-2014-log-level-tags.png&quot; alt=&quot;Screenshot of Simple History and it&amp;#39;s colorful tags&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Progress status&#58; 11 loggers available</title>
+   <link href="https://wordpress.org/plugins/simple-history//2014/09/06/progress-status-11-loggers-available/"/>
+   <updated>2014-09-06T00:00:00+02:00</updated>
+   <id>https://wordpress.org/plugins/simple-history//2014/09/06/progress-status-11-loggers-available</id>
+   <content type="html">&lt;p&gt;The development of version 2 is moving forward. This week I started to get widget logging going. That means I&amp;#39;m up to 11 loggers, logging events for the following things in WordPress:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Plugins&lt;/em&gt;&lt;br&gt;
+installs, updates, activations, deactivations, deletions&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Themes&lt;/em&gt;&lt;br&gt;
+installs, updates, switching themes, customize theme (using the WordPress customizer)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;WordPress core&lt;/em&gt;&lt;br&gt;
+manual updates and background updates&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Posts, pages, and custom post types&lt;/em&gt;&lt;br&gt;
+creation, edits, status changes, deletions&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Attachments&lt;/em&gt;&lt;br&gt;
+adding/uploading (including a nice thumbnail!), editing, deleting&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;WordPress settings screens&lt;/em&gt;&lt;br&gt;
+changing options in the General, Writing, Reading and Discussion options pages&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Permalink changes&lt;/em&gt;&lt;br&gt;
+changes of permalink and category and tag base structure&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Comments&lt;/em&gt;&lt;br&gt;
+info about new comments, changing status&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Exports&lt;/em&gt;&lt;br&gt;
+info about what was exported&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Menus&lt;/em&gt;&lt;br&gt;
+creations, edits, removals&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Users&lt;/em&gt;&lt;br&gt;
+creations, edits, removals, successful logins, failed logins&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Widgets&lt;/em&gt;&lt;br&gt;
+Adding widgets to sidebars, editing them, removing them&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
 
 </feed>

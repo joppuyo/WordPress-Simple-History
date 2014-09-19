@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Simple History 2
-tagline:          'A simple, lightweight, extendable logger for WordPress'
-description:      'A user activity feed for WordPress.'
+title:            Simple History
+tagline:          'A site and user activity feed plugin for WordPress'
+description:      'Site and user activity feed<br>plugin for WordPress'
 url:              https://wordpress.org/plugins/simple-history/
 
 author:

@@ -6,9 +6,10 @@
 		</div>
 
 		<ul class="nav-nav">
-			<li class="sidebar-nav-item{% if page.title == "Simple History 2" %} active{% endif %}">
+
+			<!--<li class="nav-item{% if page.title == "Simple History 2" %} active{% endif %}">
 				<a href="/">Home</a>
-			</li>
+			</li>-->
 
 			{% comment %}
 				The code below dynamically generates a sidebar nav of pages with
@@ -19,7 +20,7 @@
 			{% for node in pages_list %}
 				{% if node.title != null %}
 					{% if node.layout == "page" %}
-						<li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+						<li class="nav-item{% if page.url == node.url %} active{% endif %}">
 							<a href="{{ node.url }}">{{ node.title }}</a>
 						</li>
 					{% endif %}
@@ -32,8 +33,6 @@
 			<li class="sidebar-nav-item">Currently v{{ site.version }}</li>
 			-->
 		</ul>
-
-		<!-- <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p> -->
-		
+	
 	</div>
 </div>
