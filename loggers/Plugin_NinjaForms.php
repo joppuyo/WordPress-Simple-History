@@ -86,6 +86,7 @@ if ( ! class_exists( 'Plugin_NinjaForms' ) ) {
 				[
 					'form_title'    => $form_metadata['settings']['title'],
 					'submission_id' => $submission_id,
+					'form_id'       => $form_metadata['form_id'],
 				]
 			);
 		}
