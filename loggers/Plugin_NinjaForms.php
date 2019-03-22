@@ -73,8 +73,6 @@ if ( ! class_exists( 'Plugin_NinjaForms' ) ) {
 		 */
 		public function on_ninja_forms_submission ( $form_metadata ) {
 
-			error_log( print_r( $form_metadata, true ) );
-
 			$submission_id = null;
 
 			if ( ! empty( $form_metadata['actions'] ) &&
