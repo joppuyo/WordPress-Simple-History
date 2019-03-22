@@ -61,7 +61,7 @@ if ( ! class_exists( 'Plugin_NinjaForms' ) ) {
 			add_filter( 'simple_history/post_logger/skip_posttypes', array( $this, 'remove_nf_from_postlogger' ) );
 
 			// Fired when Ninja Form is submitted. Adds Ninja Forms context to logged row.
-			add_filter( 'ninja_forms_after_submission', array( $this, 'on_ninja_forms_submission ' ), 50 );
+			add_filter( 'ninja_forms_after_submission', array( $this, 'on_ninja_forms_submission' ), 50 );
 		}
 
 
